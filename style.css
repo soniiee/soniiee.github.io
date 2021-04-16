@@ -143,16 +143,14 @@ ul:hover li a:hover {
   top: -60px;
 }
 
-.anim {
-  text-decoration: none;
-  background-color: hotpink;
-}
-
 .mainbutton {
   display: flex;
-  border-style: none;
+  border-style: dotted;
+  font-size: 90px;
+  margin-top: 50px;
+  margin-left: 50px;
+  cursor: pointer;
   text-decoration: none;
-  margin: auto;
 }
 
 .lastimage {
@@ -216,4 +214,24 @@ ul:hover li a:hover {
 .description-image {
   margin-top: 50px;
   width: 100%;
+}
+
+#demo {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.txtLimits {
+  width: 400px;
+  height: 50px;
+  background-color: palegoldenrod;
+  display: block;
+  margin: auto;
+  border-radius: 10%;
+}
+
+.red {
+  color: red;
 }
